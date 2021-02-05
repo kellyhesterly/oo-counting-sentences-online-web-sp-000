@@ -20,8 +20,6 @@ class String
     elsif
       self.split("!", "?", ".").count
       binding.pry
-    elsif
-      return 0
     end
   end
 end
