@@ -21,6 +21,8 @@ class String
       sentence? && question? && exclamation?
       self.split(" ").count
       binding.pry
+    else
+      return 0
     end
   end
 end
