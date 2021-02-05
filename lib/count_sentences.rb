@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     if sentence? || question? || exclamation?
-      self.length
+      self.split(" ").count
       binding.pry
     end
   end
