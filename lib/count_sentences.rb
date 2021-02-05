@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     if sentence? || question? || exclamation?
+      self.length
       binding.pry
     end
   end
