@@ -15,14 +15,15 @@ class String
   end
 
   def count_sentences
-    if sentence? || question? || exclamation?
-      self.split(" ").count
-    elsif
-      sentence? && question? && exclamation?
-      self.split(" ").count
-      binding.pry
-    else
-      return 0
+    self.split(/[.?!]+/).count
+    # if sentence? || question? || exclamation?
+    #   self.split(" ").count
+    # elsif
+    #   sentence? && question? && exclamation?
+    #   self.split(" ").count
+    #   binding.pry
+    # else
+    #   return 0
     end
   end
 end
