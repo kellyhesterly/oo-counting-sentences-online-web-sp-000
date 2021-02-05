@@ -10,4 +10,7 @@ class String
     self.end_with?("?")
   end
 
+  def exclamation?
+    self.end_with?("!")
+  end
 end
