@@ -19,6 +19,7 @@ class String
       self.split(" ").count
     elsif
       self.split("!", "?", ".").count
+      binding.pry
     elsif
       return 0
     end
