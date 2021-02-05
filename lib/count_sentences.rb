@@ -18,7 +18,7 @@ class String
     if sentence? || question? || exclamation?
       self.split(" ").count
     elsif
-      self.split(" ").count
+      self.split("!", "?", ".").count
     elsif
       return 0
     end
