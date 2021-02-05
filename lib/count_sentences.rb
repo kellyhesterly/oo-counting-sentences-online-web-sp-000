@@ -15,5 +15,7 @@ class String
   end
 
   def count_sentences
+    if sentence? || question? || exclamation?
+      self.length
   end
 end
