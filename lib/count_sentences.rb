@@ -24,6 +24,6 @@ class String
     #   binding.pry
     # else
     #   return 0
-    end
+    # end
   end
 end
