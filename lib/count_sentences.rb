@@ -19,7 +19,7 @@ class String
       self.split(" ").count
     elsif
       sentence? && question? && exclamation?
-      self.split(" ").cunt
+      self.split(" ").count
       binding.pry
     end
   end
